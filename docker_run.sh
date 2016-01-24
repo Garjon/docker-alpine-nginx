@@ -13,7 +13,7 @@ function error_exit
 
 function build
 {
-    docker build -t garjon/alpine-nginx .
+    docker build -t gjon/alpine-nginx .
 }
 
 if [[ ${COMMAND} == "build" ]]; then
